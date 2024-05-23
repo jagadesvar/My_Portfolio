@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal Portfolio Website </title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/d282520edc.js" crossorigin="anonymous"></script>
+<body>
+<div id ="header">
+	<div class="container">
+			<nav>
+				<img src="images/logo.png" class="logo">
+				<ul id="sidemenu">
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<i class="fas fa-times" onclick="closemenu()"></i>
+				</ul>
+				<i class="fas fa-bars" onclick="openmenu()"></i>
+			</nav>
+		<div class= "header-text">
+			<p>Web Designer</p>
+			<h1>Hi, I'm <span>Jagadesvar</span><br>From India</h1>
+		</div>
+	</div>
+</div>
+<hr>
+<!-- --------------------------about------------- -->
+<div id="about">
+	<div class="container">
+		<div class="row">
+			<div class="about-col-1">
+				<a><i class="fa-brands fa-studiovinari"></i></a>
+			</div>
+			<div class="about-col-2">
+				<h1 class="sub-title">ABOUT</h1>
+				<p>I am an enthusiastic, reliable, responsible, self-determined and hard working person.
+					 I am a mature team worker and has adaptive nature to handle challenges in workspace. 
+					 I am able to work well both in a team environment as well as using own initiative.
+					  I am able to work well under pressure and adhere to strict deadlines.</p>
+
+				    <div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('experience')">Experience</p>
+						<p class="tab-links" onclick="opentab('education')">Education</p>
+					  </div>
+					<div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+							<li><span>Web Development</span><br>Web app Development</li>
+							<li><span>App Development</span><br>Building Android/iOS apps</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="experience">
+						<ul>
+							<li><span>NONE</span><br>Fresher With Passion</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="education">
+						<ul>
+							<li><span>UG - BE CSE[2021-2025]</span><br>Sona College Of Technology</li>
+						</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+<hr>
+<!-- ---------------Services------------- -->
+<div id="Certifications">
+	<div class="container">
+		<h1 class="sub-title">SERVICES</h1>
+		<div class="Certifications-list">
+			<div>
+				<i class="fas fa-code"></i>
+				<h2>Web Design</h2>
+				<p>(using HTML,CSS,JAVASCRIPT)</p>
+					<a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fas fa-crop-alt"></i>
+				<h2>UI/UX Design</h2>
+				<p>(using FIGMA)</p>
+					<a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fab fa-app-store"></i>
+				<h2>Software Design</h2>
+				<p>(using Java,JavaSwing Framework,JDBC Connector,Mysql)</p>
+					<a href="#">Learn more</a>
+			</div>
+		</div>
+	</div>
+</div>
+<hr>
+<!---------------------Skills------------------>
+<div id="skill">
+	<div class="container">
+	 <h1 class="sub-title">SKILLS</h1>
+	 
+	 
+	 <div class="skill-main">
+		 <div class="skill-left">
+			 <h3>TECHNICAL SKILLS</h3>
+			 <div class="skill-bar">
+			 <div class="info">
+				 <p>HTML</p>
+				 <p>72%</p>
+			 </div>
+			 <div class="bar">
+				 <span class="html"></span>
+			 </div>
+		 </div>
+		 <div class="skill-bar">
+			 
+			 <div class="info">
+				 <p>JAVASCRIPT</p>
+				 <p>20%</p>
+			 </div>
+			 <div class="bar">
+				 <span class="js"></span>
+			 </div>
+		 </div>
+		 <div class="skill-bar">
+			 
+			 <div class="info">
+				 <p>CSS</p>
+				 <p>72%</p>
+			 </div>
+			 <div class="bar">
+				 <span class="css"></span>
+			 </div>
+		 </div>
+		 <div class="skill-bar">
+			 
+			 <div class="info">
+				 <p>JAVA</p>
+				 <p>50%</p>
+			 </div>
+			 <div class="bar">
+				 <span class="java"></span>
+			 </div>
+		 </div>
+		 </div>
+		 <div class="skill-right">
+			 <h3>PROFESSIONAL SKILLS</h3>
+			 <div class="professional">
+				 <div class="box">
+					 <div class="circle" data-dots="80" data-percent="90"></div>
+					 <div class="text">
+						 <big>90%</big>
+						 <small>Team Work</small>
+					 </div>                    
+			 </div>
+			 <div class="box">
+				 <div class="circle" data-dots="80" data-percent="95"></div>
+				 <div class="text">
+					 <big>95%</big>
+					 <small>Organising</small>
+				 </div>                    
+		 </div>
+		 <div class="box">
+			 <div class="circle" data-dots="80" data-percent="70"></div>
+			 <div class="text">
+				 <big>70%</big>
+				 <small>Leadership</small>
+			 </div>                    
+	 </div>
+	 <div class="box">
+		 <div class="circle" data-dots="80" data-percent="50"></div>
+		 <div class="text">
+			 <big>50%</big>
+			 <small>Communication</small>
+		 </div>                    
+ </div>
+		 </div>
+	 </div>
+	 </div>
+	 
+	</div>
+ </div>
+ <hr>
+<!-- ------------------Projects---------------->
+<div id="Projects">
+	<div class="container">
+		<h1 class="sub-title">PROJECTS</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/work-1.png">
+				<div class="layer">
+					<h3>Hotel Management Software</h3>
+					<p>A Hotel Management System is a software application that 
+						allows hotel managers and staff to efficiently manage various operations and activities related to hotel management. 
+						It typically uses a database to store and organize data related to hotels.</p>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/work-2.png">
+				<div class="layer">
+					<h3>Personal Portfolio Website</h3>
+					<p>A portfolio website is a unique way to showcase my work and let others know about myself. 
+						It's like an evergreen platform for my projects, case studies, and information about me. 
+						In addition, it's one of the best ways to express my personality, experience, and capabilities.</p>
+						<a href="#"><i class="fas fa-external-link-alt"></i></a>
+				</div>
+			</div>
+			
+		</div>
+		<a href="#" class="btn">See Details Of Projects</a>
+	</div>
+</div>
+<hr>
+<!-- ---------------------contact------------>
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">CONTACT ME</h1>
+				<p><i class="fas fa-paper-plane"></i> jagadesvarr@gmail.com</p>
+				<p><i class="fas fa-phone-square-alt"></i> +91 8778292321</p>
+				<div class="social-icons">
+					<a href="https://www.hackerrank.com/jagadesvarr?hr_r=1" target="_blank"><i class="fa-brands fa-hackerrank"></i></a>
+					<a href="https://github.com/jagadesvar" target="_blank"><i class="fa-brands fa-github"></i></a>
+					<a href="https://www.linkedin.com/in/jagadesvar-u-507359253" target="_blank"><i class="fab fa-linkedin"></i></a>
+				</div>
+				<a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+			</div>
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text " name="Name" autocomplete="name" placeholder="Your Name" required >
+					<input type="email" name="email" autocomplete="email" placeholder="Your Email" required>
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+				<span id="msg"></span>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>copyright © Jagadesvar.<i class="fas fa-heart"></i></p>
+	</div>
+</div>
+
+<script>
+
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tabcontents = document.getElementsByClassName("tab-contents");
+	
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab")
+	} 
+	
+</script>
+<script>
+
+	var sidemeu = document.getElementById("sidemenu");
+
+	function openmenu(){
+		sidemeu.style.right = "0";
+	}
+	function closemenu(){
+		sidemeu.style.right = "-200px";
+	}
+
+</script>
+<script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbx3x1MLoFDyFzj3p_AFS5DWTpzGv5WhdoifOTRmOoGkuLGD9Dcp04vpE5xRpkGL99A/exec'
+	const form = document.forms['submit-to-google-sheet']
+	const msg = document.getElementById("msg")
+  
+	form.addEventListener('submit', e => {
+	  e.preventDefault()
+	  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+		.then(response => {
+			msg.innerHTML = "Message sent successfully"
+			setTimeout(function(){
+				msg.innerHTML = ""
+			},5000)
+			form.reset()
+		})
+		.catch(error => console.error('Error!', error.message))
+	})
+  </script>
+  <script src="script.js"></script>
+</head>
+</body>
+</html>
