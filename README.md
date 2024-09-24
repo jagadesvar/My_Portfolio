@@ -29,15 +29,15 @@ I am an enthusiastic, reliable, responsible, self-determined, and hardworking pe
 
 - **Web Design**
   - Using HTML, CSS, JavaScript
-  - ![Web Design](images/web-design.png)
+  
 
 - **UI/UX Design**
   - Using Figma
-  - ![UI/UX Design](images/uiux-design.png)
+  
 
 - **Software Design**
   - Using Java, JavaSwing Framework, JDBC Connector, MySQL
-  - ![Software Design](images/software-design.png)
+  
 
 ---
 
