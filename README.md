@@ -59,17 +59,6 @@ I am an enthusiastic, reliable, responsible, self-determined, and hardworking pe
 
 ---
 
-## Projects
-
-### Hotel Management Software
-![Hotel Management Software](images/work-1.png)
-A Hotel Management System is a software application that allows hotel managers and staff to efficiently manage various operations and activities related to hotel management.
-
-### Personal Portfolio Website
-![Personal Portfolio Website](images/work-2.png)
-A portfolio website is a unique way to showcase my work and let others know about myself.
-
-[See More Projects](#)
 
 ---
 
